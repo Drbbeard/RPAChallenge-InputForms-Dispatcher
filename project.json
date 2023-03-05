@@ -52,20 +52,6 @@
       },
       {
         "editingStatus": "InProgress",
-        "testCaseId": "2db64d2d-a5e7-40d9-ad91-871d810928c5",
-        "testCaseType": "TestCase",
-        "executionTemplateType": "Local",
-        "fileName": "Tests\\InitAllApplicationsTestCase.xaml"
-      },
-      {
-        "editingStatus": "InProgress",
-        "testCaseId": "88f1c07b-456d-4b34-97c1-d8425aa72c14",
-        "testCaseType": "TestCase",
-        "executionTemplateType": "Local",
-        "fileName": "Tests\\InitAllSettingsTestCase.xaml"
-      },
-      {
-        "editingStatus": "InProgress",
         "testCaseId": "c7277574-b41e-4842-abbb-f6d5deb2a142",
         "testCaseType": "TestCase",
         "executionTemplateType": "Local",
@@ -77,6 +63,20 @@
         "testCaseType": "TestCase",
         "executionTemplateType": "Local",
         "fileName": "Tests\\WorkflowTestCaseTemplate.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "88f1c07b-456d-4b34-97c1-d8425aa72c14",
+        "testCaseType": "TestCase",
+        "executionTemplateType": "Local",
+        "fileName": "Tests\\Test_InitAllSettings.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "2db64d2d-a5e7-40d9-ad91-871d810928c5",
+        "testCaseType": "TestCase",
+        "executionTemplateType": "Local",
+        "fileName": "Tests\\Test_InitAllApplications.xaml"
       }
     ],
     "modernBehavior": true
