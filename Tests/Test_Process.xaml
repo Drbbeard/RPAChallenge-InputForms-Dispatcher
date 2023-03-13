@@ -71,7 +71,7 @@
       <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
     </scg:List>
   </TextExpression.ReferencesForImplementation>
-  <Sequence sap2010:Annotation.AnnotationText="Given&#xA;-Config loaded&#xA;-Browser instance opened to RPA Challenge Input Forms page&#xA;-Test Queue&#xA;-Valid Data table with a unique ID provided&#xA;When&#xA;-Execute Process workflow&#xA;Then&#xA;-Queue Item created successfully&#xA;Finally&#xA;-Close RPA Challenge Input Forms browser instance&#xA;" DisplayName="ProcessTestCase" sap:VirtualizedContainerService.HintSize="658,2418" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence sap2010:Annotation.AnnotationText="Given&#xA;-Config loaded&#xA;-Browser instance opened to RPA Challenge Input Forms page&#xA;-Test Queue&#xA;-Valid Data table with a unique ID&#xA;When&#xA;-Execute Process workflow&#xA;Then&#xA;-Queue Item created successfully&#xA;Finally&#xA;-Close RPA Challenge Input Forms browser instance&#xA;" DisplayName="Sequence - Create Queue Item" sap:VirtualizedContainerService.HintSize="658,2418" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
       <Variable x:TypeArguments="scg:Dictionary(x:String, x:Object)" Name="Config" />
       <Variable x:TypeArguments="x:Int32" Default="1" Name="TransactionNumber" />

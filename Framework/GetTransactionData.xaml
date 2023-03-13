@@ -13,7 +13,7 @@
   <mva:VisualBasic.Settings>
     <x:Null />
   </mva:VisualBasic.Settings>
-  <sap:VirtualizedContainerService.HintSize>1771,1570</sap:VirtualizedContainerService.HintSize>
+  <sap:VirtualizedContainerService.HintSize>1771,1589</sap:VirtualizedContainerService.HintSize>
   <sap2010:WorkflowViewState.IdRef>GetTransactionData_1</sap2010:WorkflowViewState.IdRef>
   <TextExpression.NamespacesForImplementation>
     <sco:Collection x:TypeArguments="x:String">
@@ -108,7 +108,7 @@
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
     <ui:Comment sap:VirtualizedContainerService.HintSize="516,56" sap2010:WorkflowViewState.IdRef="Comment_2" Text="FIX BROWSER NAME ARGUMENT" />
-    <ui:LogMessage DisplayName="Log Message Get Transaction Data" sap:VirtualizedContainerService.HintSize="516,92" sap2010:WorkflowViewState.IdRef="LogMessage_1" Level="Info" Message="[&quot;Get the transaction data&quot;]" />
+    <ui:LogMessage DisplayName="Log Message - Get Transaction Data" sap:VirtualizedContainerService.HintSize="516,92" sap2010:WorkflowViewState.IdRef="LogMessage_1" Level="Info" Message="[&quot;Get the transaction data&quot;]" />
     <If Condition="[io_dt_TransactionData is Nothing]" DisplayName="If - Transaction Data Has Not Been Retrieved" sap:VirtualizedContainerService.HintSize="516,652" sap2010:WorkflowViewState.IdRef="If_1">
       <If.Then>
         <ui:RetryScope DisplayName="Retry Scope - Get Transaction Data" sap:VirtualizedContainerService.HintSize="480,463" sap2010:WorkflowViewState.IdRef="RetryScope_2" NumberOfRetries="[Cint(in_Config(&quot;RetryNumberGetTransactionItem&quot;))]">

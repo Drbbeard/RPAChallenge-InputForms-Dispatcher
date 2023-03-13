@@ -45,13 +45,6 @@
     "fileInfoCollection": [
       {
         "editingStatus": "InProgress",
-        "testCaseId": "28a3befc-47d8-4493-90bd-47b5591cc16b",
-        "testCaseType": "TestCase",
-        "executionTemplateType": "Local",
-        "fileName": "Tests\\WorkflowTestCaseTemplate.xaml"
-      },
-      {
-        "editingStatus": "InProgress",
         "testCaseId": "88f1c07b-456d-4b34-97c1-d8425aa72c14",
         "testCaseType": "TestCase",
         "executionTemplateType": "Local",
